@@ -8,8 +8,8 @@ A clean, web-based interface that evaluates the moral and ethical implications o
 - **Model Switcher:** Dynamically switch between installed local models directly from the header (`qwen2.5:3b`, `llama3.2`, `gemma2:2b`).
 
 ## 📁 Repository Structure
-- `sedziamoralny.html` — The core single-page application (HTML/Tailwind CSS/JS).
-- `Uruchom.bat` — Windows launcher script that stops existing Ollama tasks and restarts the server with proper CORS headers enabled.
+- `index.html` — The core single-page application (HTML/Tailwind CSS/JS).
+- `start.bat` — Windows launcher script that stops existing Ollama tasks and restarts the server with proper CORS headers enabled.
 
 ## 🛠️ Prerequisites & Setup
 
@@ -21,7 +21,7 @@ A clean, web-based interface that evaluates the moral and ethical implications o
    ```bash
    ollama pull qwen2.5:3b
 Start the Local AI Server:
-Run the included Uruchom.bat script on Windows. This ensures Ollama runs with OLLAMA_ORIGINS=* so your browser can communicate with the local API without CORS blocking.
+Run the included start.bat script on Windows. This ensures Ollama runs with OLLAMA_ORIGINS=* so your browser can communicate with the local API without CORS blocking.
 
 Launch the App:
-Simply double-click sedziamoralny.html to open it in any modern browser.
+Simply double-click index.html to open it in any modern browser.
